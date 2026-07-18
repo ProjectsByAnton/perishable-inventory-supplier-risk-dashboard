@@ -7,6 +7,17 @@
 
 A dashboard looking at inventory health and supplier reliability for a grocery retailer dealing with perishable goods. The goal wasn't just "what's low on stock", it is connecting that to *why*: which categories and suppliers are actually driving the risk, rather than just showing numbers in isolation.
 
+## Screenshots
+
+### Cover
+![Cover page](cover_page.png)
+
+### Overview
+![Overview page](overview_page.png)
+
+### Risk Analysis
+![Risk Analysis page](risk_analysis_page.png)
+
 ## Cleaning the data (Power Query)
 
 - `Unit_Price` came in as text with a dollar sign (`"$4.50 "`) — converted to a proper Currency type
